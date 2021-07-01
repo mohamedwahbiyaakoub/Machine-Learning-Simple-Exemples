@@ -16,7 +16,7 @@ We can measure the accuracy of our hypothesis function by using a cost function.
 This takes an average difference (actually a fancier version of an average) of all
 the results of the hypothesis with inputs from x's and the actual output y's.
 
-<<<<<<< HEAD
+
 ![Cost Function Formula](graphs/assets/cost_function.png)
 
 This function is otherwise called the `Squared error function`, or `Mean squared error`. 
@@ -25,11 +25,4 @@ as the derivative term of the square function will cancel out the (0.5) term. Th
 image summarizes what the cost function does: 
 
 ### 2. Gradiant Descent :
-
-
-=======
-```
-$J(\theta_{0}, \theta_{1}) = \frac{1}{2m}$
-```
->>>>>>> 8b94beebc841fe2b0fe1e55724ff31af9d0ba110
 
