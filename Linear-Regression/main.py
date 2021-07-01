@@ -8,7 +8,7 @@ m = 0
 file_name = 'Linear-Regression/data.txt'
 
 # initialize fitting parameters
-theta = np.zeros(2, 1)
+# theta = np.zeros(2, 1)
 
 # Gradiant descent settings :
 iterations = 1500
@@ -47,9 +47,6 @@ def plot_data(x, y):
     plt.ylabel('Population of City in 10,000s')
     print('[INFO]: Plot is ready ...')
     plt.show()
-    # Save Plot into graphs :
-    plt.savefig('Linear-Regression/graphs/graph_1.png')
-    print('[INFO]: Picture is save in graphs ...')
 
 
 def compute_cost_function(x, y, theta):
