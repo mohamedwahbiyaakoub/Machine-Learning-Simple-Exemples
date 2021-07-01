@@ -5,8 +5,14 @@ import matplotlib.pyplot as plt
 X = []
 Y = []
 m = 0
-iteration = 
 file_name = 'Linear-Regression/data.txt'
+
+# initialize fitting parameters
+theta = np.zeros(2, 1)
+
+# Gradiant descent settings :
+iterations = 1500
+alpha = 0.01
 
 
 # Create a 5x5 identity matrix :
@@ -44,6 +50,10 @@ def plot_data(x, y):
     # Save Plot into graphs :
     plt.savefig('Linear-Regression/graphs/graph_1.png')
     print('[INFO]: Picture is save in graphs ...')
+
+
+def compute_cost_function(x, y, theta):
+    return 0
 
 
 if __name__ == "__main__":
